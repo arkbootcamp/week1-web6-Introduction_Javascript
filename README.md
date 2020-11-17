@@ -1,6 +1,6 @@
 <h1 align="center">Introduction Javascript 1 - 3</h1>
 
-## 1.1
+## Part 1
 
 1. Variabel
 2. Data Types
