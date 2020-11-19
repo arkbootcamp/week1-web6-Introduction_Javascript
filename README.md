@@ -9,3 +9,9 @@
 5. String Literal
 6. Spread Operator
 7. Destructuring
+
+## Part 2
+
+1. Function
+2. Method
+3. Callback Function
