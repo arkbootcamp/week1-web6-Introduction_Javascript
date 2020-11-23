@@ -15,3 +15,9 @@
 1. Function
 2. Method
 3. Callback Function
+
+## 1.3
+
+1. Asynchronus
+2. Promise & Then Catch
+3. Async Await & Try Catch
