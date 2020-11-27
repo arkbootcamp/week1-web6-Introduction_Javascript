@@ -11,22 +11,22 @@
 
 // ============================================
 // SEBELUM ASYNCRONOUS DIHANDLE
-// // proses 1
-// let r = 7;
-// let phi = null;
-// console.log("Proses Deklarasi Berjalan !");
-// // proses 2
-// setTimeout(() => {
-//   console.log("Sedang mencari nilai phi !");
-//   if (r % 7 === 0) {
-//     phi = 22 / 7;
-//   } else {
-//     phi = 3.14;
-//   }
-//   console.log(`nilai phi = ${phi} `);
-// }, 2000);
-// // proses 3
-// console.log(`Hasil luas lingkaran adalah ${phi * r * r}`);
+// proses 1
+let r = 7;
+let phi = null;
+console.log("Proses Deklarasi Berjalan !");
+// proses 2
+setTimeout(() => {
+  console.log("Sedang mencari nilai phi !");
+  if (r % 7 === 0) {
+    phi = 22 / 7;
+  } else {
+    phi = 3.14;
+  }
+  console.log(`nilai phi = ${phi} `);
+}, 2000);
+// proses 3
+console.log(`Hasil luas lingkaran adalah ${phi * r * r}`);
 // ================================================================
 // SETELAH ASYNCRONOUS DIHANDLE MENGGUNAKAN CALLBACK FUNCTION
 const hitungLuasLingkaran = (callback) => {
